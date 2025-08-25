@@ -293,7 +293,7 @@ export default function LandingPage() {
               </Card>
             </motion.div>
 
-            <motion.div variants={fadeInUp}>
+            {/* <motion.div variants={fadeInUp}>
               <Card className="bg-white/5 backdrop-blur-xl border-white/10 hover:bg-white/10 transition-all duration-300 group">
                 <CardContent className="p-8 text-center">
                   <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg shadow-green-500/25">
@@ -316,7 +316,7 @@ export default function LandingPage() {
             </motion.div>
           </motion.div>
 
-          <motion.div className="text-center mt-12" {...fadeInUp}>
+          <motion.div className="text-center mt-12" {...fadeInUp}> */}
             <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-xl border border-white/10 rounded-2xl p-8 max-w-3xl mx-auto">
               <h3 className="text-2xl font-bold mb-4 text-white">Our Journey</h3>
               <p className="text-slate-300 mb-6 leading-relaxed">
@@ -338,7 +338,7 @@ export default function LandingPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 px-4">
+      {/* <section className="py-20 px-4">
         <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-xl border border-white/10 rounded-3xl mx-4">
           <div className="container mx-auto py-16">
             <motion.div className="text-center mb-8" {...fadeInUp}>
@@ -368,10 +368,10 @@ export default function LandingPage() {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials */}
-      <section className="py-20 px-4">
+      {/* <section className="py-20 px-4">
         <div className="container mx-auto">
           <motion.div className="text-center mb-16" {...fadeInUp}>
             <h2 className="text-4xl font-bold mb-4 text-white">Loved by teams worldwide</h2>
@@ -426,7 +426,7 @@ export default function LandingPage() {
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 px-4">
