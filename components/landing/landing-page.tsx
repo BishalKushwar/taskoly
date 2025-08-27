@@ -278,7 +278,7 @@ export default function LandingPage() {
                   <h3 className="text-2xl font-semibold mb-2 text-white">Bishal Kushwar Majhi</h3>
                   <p className="text-blue-400 text-lg mb-4">Co-founder, Visionary and Developer</p>
                   <p className="text-slate-300 leading-relaxed mb-4">
-                    The dreamer behind Taskoly's vision. Arjun spent years frustrated with clunky project tools while
+                    The dreamer behind Taskoly's vision. Bishal spent years frustrated with clunky project tools while
                     working with remote teams. His obsession with beautiful, intuitive design drives every pixel of our
                     platform. When not coding, he's exploring Nepal's mountains for inspiration.
                     The technical mastermind who makes the magic happen. Rajesh believes that great software should be
