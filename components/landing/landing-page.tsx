@@ -281,6 +281,9 @@ export default function LandingPage() {
                     The dreamer behind Taskoly's vision. Arjun spent years frustrated with clunky project tools while
                     working with remote teams. His obsession with beautiful, intuitive design drives every pixel of our
                     platform. When not coding, he's exploring Nepal's mountains for inspiration.
+                    The technical mastermind who makes the magic happen. Rajesh believes that great software should be
+                    invisible - it just works. His passion for clean architecture and scalable systems ensures Taskoly
+                    can grow from our first user to millions. Coffee enthusiast and night owl coder.
                   </p>
                   <div className="flex flex-wrap justify-center gap-2">
                     <Badge className="bg-blue-500/20 text-blue-300 border-blue-500/30 text-xs">Product Design</Badge>
@@ -288,25 +291,6 @@ export default function LandingPage() {
                     <Badge className="bg-purple-500/20 text-purple-300 border-purple-500/30 text-xs">
                       User Experience
                     </Badge>
-                  </div>
-                </CardContent>
-              </Card>
-            </motion.div>
-
-            {/* <motion.div variants={fadeInUp}>
-              <Card className="bg-white/5 backdrop-blur-xl border-white/10 hover:bg-white/10 transition-all duration-300 group">
-                <CardContent className="p-8 text-center">
-                  <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg shadow-green-500/25">
-                    <span className="text-3xl font-bold text-white">RG</span>
-                  </div>
-                  <h3 className="text-2xl font-semibold mb-2 text-white">Rajesh Gurung</h3>
-                  <p className="text-green-400 text-lg mb-4">Co-founder & Builder</p>
-                  <p className="text-slate-300 leading-relaxed mb-4">
-                    The technical mastermind who makes the magic happen. Rajesh believes that great software should be
-                    invisible - it just works. His passion for clean architecture and scalable systems ensures Taskoly
-                    can grow from our first user to millions. Coffee enthusiast and night owl coder.
-                  </p>
-                  <div className="flex flex-wrap justify-center gap-2">
                     <Badge className="bg-orange-500/20 text-orange-300 border-orange-500/30 text-xs">Backend</Badge>
                     <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-500/30 text-xs">Database</Badge>
                     <Badge className="bg-pink-500/20 text-pink-300 border-pink-500/30 text-xs">Infrastructure</Badge>
@@ -314,9 +298,32 @@ export default function LandingPage() {
                 </CardContent>
               </Card>
             </motion.div>
+
+            <motion.div variants={fadeInUp}>
+              <Card className="bg-white/5 backdrop-blur-xl border-white/10 hover:bg-white/10 transition-all duration-300 group">
+                <CardContent className="p-8 text-center">
+                  <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg shadow-green-500/25">
+                    <span className="text-3xl font-bold text-white">SK</span>
+                  </div>
+                  <h3 className="text-2xl font-semibold mb-2 text-white">Sanjaya Karki</h3>
+                  <p className="text-green-400 text-lg mb-4">Co-founder & Project Strategist</p>
+                  <p className="text-slate-300 leading-relaxed mb-4">
+                    The visionary force behind Taskoly's product strategy and user experience. With his deep understanding
+                    of project workflows and team coordination, Rajesh ensures our platform solves real-world challenges.
+                    His expertise in project management and team organization helps shape features that make work flow
+                    seamlessly. Early riser and productivity enthusiast.
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-2">
+                    <Badge className="bg-orange-500/20 text-orange-300 border-orange-500/30 text-xs">Product Strategy</Badge>
+                    <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-500/30 text-xs"> Management</Badge>
+                    <Badge className="bg-pink-500/20 text-pink-300 border-pink-500/30 text-xs">Project Planning</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
           </motion.div>
 
-          <motion.div className="text-center mt-12" {...fadeInUp}> */}
+          <motion.div className="text-center mt-12" {...fadeInUp}>
             <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-xl border border-white/10 rounded-2xl p-8 max-w-3xl mx-auto">
               <h3 className="text-2xl font-bold mb-4 text-white">Our Journey</h3>
               <p className="text-slate-300 mb-6 leading-relaxed">
